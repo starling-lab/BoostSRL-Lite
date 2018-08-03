@@ -1,5 +1,25 @@
-*.DS_Store
+# Eclipse (based on: https://www.gitignore.io/api/eclipse)
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+.project
+.classpath
+
 *.class
+
+# Mac files
+
+*.DS_Store
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -8,4 +28,3 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-/bin/
